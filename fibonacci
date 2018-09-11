@@ -1,0 +1,17 @@
+print('<<< Sequência de Fibonacci >>>')
+
+x= int(input('Informe a quantidade da sequêência:'))
+num= 1
+somar= 1
+i= 0
+count= 1
+print(num)
+
+while count < x:
+  somar= somar + i
+  i= somar - i 
+  count= count + 1
+  print(somar)
+print('Total da sequência:',count)
+
+print ('Fim')
